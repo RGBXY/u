@@ -1,14 +1,11 @@
 <template>
-  <svg :class="icon" width="" height="" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <g id="Icons">
-      <path
-        id="Vector"
-        d="M8 12H8.01M12 12H12.01M16 12H16.01M21 12C21 16.418 16.97 20 12 20C10.5286 20.005 9.07479 19.6808 7.745 19.051L3 20L4.395 16.28C3.512 15.042 3 13.574 3 12C3 7.582 7.03 4 12 4C16.97 4 21 7.582 21 12Z"
-        stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      />
-    </g>
+  <svg :class="icon" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path
+      d="M6 9H6.01M10 9H10.01M14 9H14.01M19 9C19 13.418 14.97 17 10 17C8.52864 17.005 7.07479 16.6808 5.745 16.051L1 17L2.395 13.28C1.512 12.042 1 10.574 1 9C1 4.582 5.03 1 10 1C14.97 1 19 4.582 19 9Z"
+      stroke="currentColor"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
   </svg>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-center relative">
-    <div class="fixed bottom-[4%] flex justify-between py-2 px-2 rounded-xl h-[9%] bg-bg_prim w-[90%] lg:w-[24%]">
+    <div class="fixed z-50 bottom-[4%] flex justify-between py-2 px-2 rounded-xl h-[9%] bg-bg_prim w-[90%] lg:w-[24%]">
       <a href="#home" class="bg-green_prim group hover:bg-white w-[16%] transition-all flex items-center justify-center rounded-md">
         <HomeIcon class="w-[60%] text-[#F5F5F2] group-hover:text-[#3F3F46]" />
       </a>

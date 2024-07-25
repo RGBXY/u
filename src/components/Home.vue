@@ -31,7 +31,7 @@
       </div>
       <h1 class="font-semibold text-lg font-lexend mb-4">Minggu, 21 Juli 2024</h1>
       <Button class="mb-10">
-        <img src="" alt="" />
+        <CalenderIcon class="w-5" />
         <p>Save The Date</p>
       </Button>
     </div>
@@ -40,4 +40,5 @@
 
 <script setup>
 import Button from "../components/Button.vue";
+import CalenderIcon from "./icon/CalenderIcon.vue";
 </script>
