@@ -17,12 +17,12 @@
           & Ibu Eva Naryanti
         </p>
         <div class="flex gap-4">
-          <div class="w-10 h-10 flex justify-center rounded-full bg-[#87EBA5]">
+          <a href="https://www.instagram.com/cancreative?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="w-10 h-10 flex justify-center rounded-full bg-[#87EBA5]">
             <img class="w-6" src="../../public/assets/assets-icon-instagram.svg" alt="" />
-          </div>
-          <div class="w-10 h-10 flex justify-center rounded-full bg-[#87EBA5]">
+          </a>
+          <a href="https://www.facebook.com/can.co.id?locale=id_ID" class="w-10 h-10 flex justify-center rounded-full bg-[#87EBA5]">
             <img class="w-6" src="../../public/assets/assets-icon-facebook.svg" alt="" />
-          </div>
+          </a>
         </div>
       </div>
     </div>
@@ -44,12 +44,12 @@
         & Ibu Eti Kustini
       </p>
       <div class="flex gap-4">
-        <div class="w-10 h-10 flex justify-center rounded-full bg-[#87EBA5]">
+        <a href="https://www.instagram.com/cancreative?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="w-10 h-10 flex justify-center rounded-full bg-[#87EBA5]">
           <img class="w-6" src="../../public/assets/assets-icon-instagram.svg" alt="" />
-        </div>
-        <div class="w-10 h-10 flex justify-center rounded-full bg-[#87EBA5]">
+        </a>
+        <a href="https://www.facebook.com/can.co.id?locale=id_ID" class="w-10 h-10 flex justify-center rounded-full bg-[#87EBA5]">
           <img class="w-6" src="../../public/assets/assets-icon-facebook.svg" alt="" />
-        </div>
+        </a>
       </div>
     </div>
   </div>

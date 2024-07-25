@@ -13,19 +13,19 @@
       </div>
       <div class="flex gap-3 text-center mb-4">
         <div class="bg-gradient-to-b from-[#70FFE7] to-[#B2CAC6] pb-1 px-4 rounded-lg shadow-xl font-quin font-medium">
-          <p>347</p>
+          <p>{{ timerStore.days }}</p>
           <p>Hari</p>
         </div>
         <div class="bg-gradient-to-b from-[#70FFE7] to-[#B2CAC6] pb-1 px-4 rounded-lg shadow-xl font-quin font-medium">
-          <p>12</p>
+          <p>{{ timerStore.hours }}</p>
           <p>Jam</p>
         </div>
         <div class="bg-gradient-to-b from-[#70FFE7] to-[#B2CAC6] pb-1 px-4 rounded-lg shadow-xl font-quin font-medium">
-          <p>39</p>
+          <p>{{ timerStore.minutes }}</p>
           <p>Menit</p>
         </div>
         <div class="bg-gradient-to-b from-[#70FFE7] to-[#B2CAC6] pb-1 px-4 rounded-lg shadow-xl font-quin font-medium">
-          <p>23</p>
+          <p>{{ timerStore.seconds }}</p>
           <p>Detik</p>
         </div>
       </div>
@@ -38,7 +38,31 @@
   </div>
 </template>
 
-<script setup>
+<script>
+import { useTimerStore } from "@/stores/timer";
+import { onMounted, onUnmounted } from "vue";
 import Button from "../components/Button.vue";
 import CalenderIcon from "./icon/CalenderIcon.vue";
+
+export default {
+  components: {
+    Button,
+    CalenderIcon,
+  },
+  setup() {
+    const timerStore = useTimerStore();
+
+    onMounted(() => {
+      timerStore.startTimer();
+    });
+
+    onUnmounted(() => {
+      timerStore.stopTimer();
+    });
+
+    return {
+      timerStore,
+    };
+  },
+};
 </script>
