@@ -1,5 +1,5 @@
 <template>
-  <div class="py-10 bg-cover overflow-hidden bg-center bg-no-repeat bg-[url('../../public/assets/assets-bg-image-2.jpeg')]">
+  <div class="py-10 h-full bg-cover overflow-hidden bg-center bg-no-repeat bg-[url('../../public/assets/assets-bg-image-2.jpeg')]">
     <div class="overflow-hidden">
       <div class="flex flex-col px-8 justify-center items-center text-center">
         <div data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="500" class="relative mb-8">
