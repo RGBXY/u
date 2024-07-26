@@ -3,8 +3,8 @@
     <img class="absolute bottom-20 left-0" src="../../public/assets/assets-item-9.png" alt="" />
     <img class="absolute right-0 top-20" src="../../public/assets/assets-item-10.png" alt="" />
     <div class="flex flex-col justify-center items-center px-4 text-center">
-      <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800" class="font-amita text-3xl font-semibold">Wedding Event</h1>
-      <p data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="500" class="pt-2 text-sm font-kurale mb-3 z-10 relative">Konfirmasi Kehadiran dan Berikan Ucapan serta Doa Restu</p>
+      <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800" class="font-amita text-3xl font-semibold mb-3">Guest Book</h1>
+      <p data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="500" class="pt-2 text-sm font-kurale mb-3 z-10 relative">Konfirmasi Kehadiran dan Berikan Ucapan serta <br> Doa Restu</p>
       <div data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="500" class="relative py-3 px-3 bg-secondary rounded-2xl">
         <div class="bg-bg_prim p-3 rounded-xl font-kurale">
           <div v-if="submitStat === true" class="text-center my-5 text-[14px]">
