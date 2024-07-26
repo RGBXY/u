@@ -6,7 +6,6 @@
       <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800" class="font-amita text-3xl font-semibold">Wedding Event</h1>
       <p data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="500" class="pt-2 text-sm font-kurale mb-3 z-10 relative">Konfirmasi Kehadiran dan Berikan Ucapan serta Doa Restu</p>
       <div data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="500" class="relative py-3 px-3 bg-secondary rounded-2xl">
-        <img class="absolute -top-12 -left-10 w-[120px]" src="../../public/assets/assets-3.png" alt="" />
         <div class="bg-bg_prim p-3 rounded-xl font-kurale">
           <div v-if="submitStat === true" class="text-center my-5 text-[14px]">
             <p>Terima Kasih! <br />Konfirmasi kehadiran Anda sudah tercatat.</p>
