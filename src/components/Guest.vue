@@ -1,5 +1,5 @@
 <template>
-  <div id="ucapan" class="w-full bg-center relative py-12 bg-cover bg-no-repeat bg-[url('../../public/assets/assets-bg-image-2.jpeg')]">
+  <div id="ucapan" class="w-full bg-center overflow-hidden relative py-12 bg-cover bg-no-repeat bg-[url('../../public/assets/assets-bg-image-2.jpeg')]">
     <img class="absolute bottom-20 left-0" src="../../public/assets/assets-item-9.png" alt="" />
     <img class="absolute right-0 top-20" src="../../public/assets/assets-item-10.png" alt="" />
     <div class="flex flex-col justify-center items-center px-4 text-center">
