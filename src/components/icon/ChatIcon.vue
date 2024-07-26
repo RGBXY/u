@@ -1,5 +1,5 @@
 <template>
-  <svg :class="icon" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path
       d="M6 9H6.01M10 9H10.01M14 9H14.01M19 9C19 13.418 14.97 17 10 17C8.52864 17.005 7.07479 16.6808 5.745 16.051L1 17L2.395 13.28C1.512 12.042 1 10.574 1 9C1 4.582 5.03 1 10 1C14.97 1 19 4.582 19 9Z"
       stroke="currentColor"
@@ -8,15 +8,3 @@
     />
   </svg>
 </template>
-
-<script>
-export default {
-  name: "ChatIcon",
-};
-</script>
-
-<style scoped>
-.icon {
-  stroke: currentColor;
-}
-</style>

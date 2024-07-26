@@ -9,14 +9,4 @@
   </svg>
 </template>
 
-<script>
-export default {
-  name: "GalleryIcon",
-};
-</script>
 
-<style scoped>
-.icon {
-  stroke: currentColor;
-}
-</style>

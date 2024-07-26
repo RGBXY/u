@@ -9,8 +9,9 @@
       </div>
       <p class="font-semibold italic font-kurale mb-5">Kepada Bapak/Ibu/Saudara/i</p>
       <h1 class="font-lexend text-lg mb-5">Nama Tamu</h1>
+      <audio ref="audioPlayer" src="../../public/assets/audio/assets-audio.mp3"></audio>
       <RouterLink to="/page">
-        <Button>
+        <Button v-on:click.native="playAudio">
           <EnvelopeIcon />
           <p>Buka Undangan</p>
         </Button>
@@ -19,8 +20,33 @@
   </div>
 </template>
 
-<script setup>
+<script>
+import { useAudioStore } from "../stores/audio";
 import { RouterLink } from "vue-router";
+import { computed } from "vue";
 import Button from "../components/Button.vue";
 import EnvelopeIcon from "../components/icon/EnvelopeIcon.vue";
+
+export default {
+  components: {
+    Button,
+    EnvelopeIcon,
+  },
+  setup() {
+    const audioStore = useAudioStore();
+
+    // Inisialisasi audio saat komponen dipasang
+    audioStore.initializeAudio("../../public/assets/audio/assets-audio.mp3");
+
+    const playAudio = () => {
+      audioStore.playAudio();
+    };
+
+    const stopAudio = () => {
+      audioStore.stopAudio();
+    };
+
+    return { playAudio, stopAudio, isLooping: computed(() => audioStore.isLooping) };
+  },
+};
 </script>

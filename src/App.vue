@@ -8,3 +8,5 @@ import Frame from "./components/Frame.vue";
     <RouterView />
   </Frame>
 </template>
+
+

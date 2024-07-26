@@ -1,5 +1,5 @@
 {
-  "name": "undangan-digital-3",
+  "name": "derren_amadeo_hermawan",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -9,7 +9,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
     "pinia": "^2.1.7",
+    "swiper": "^11.1.7",
     "vue": "^3.4.29",
     "vue-router": "^4.3.3"
   },
